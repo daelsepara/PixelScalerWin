@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PixelScalerWin", "PixelScalerWin\PixelScalerWin.vcxproj", "{44ADF6CA-D76C-45D5-934F-B3A2893FC898}"
 EndProject
@@ -142,6 +142,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lq2x4bold", "lq2x4bold\lq2x4bold.vcxproj", "{98ADFC09-3C56-4C5A-AD5E-27973A2A2BC3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "brightness10", "brightness10\brightness10.vcxproj", "{AEE6D45C-81F5-4D1F-8AF2-3B7000CACFE6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameboygreen", "gameboygreen\gameboygreen.vcxproj", "{4C7EF76C-CF80-4436-9247-BD8D16CB60C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -711,8 +713,19 @@ Global
 		{AEE6D45C-81F5-4D1F-8AF2-3B7000CACFE6}.Release|x64.Build.0 = Release|x64
 		{AEE6D45C-81F5-4D1F-8AF2-3B7000CACFE6}.Release|x86.ActiveCfg = Release|Win32
 		{AEE6D45C-81F5-4D1F-8AF2-3B7000CACFE6}.Release|x86.Build.0 = Release|Win32
+		{4C7EF76C-CF80-4436-9247-BD8D16CB60C8}.Debug|x64.ActiveCfg = Debug|x64
+		{4C7EF76C-CF80-4436-9247-BD8D16CB60C8}.Debug|x64.Build.0 = Debug|x64
+		{4C7EF76C-CF80-4436-9247-BD8D16CB60C8}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C7EF76C-CF80-4436-9247-BD8D16CB60C8}.Debug|x86.Build.0 = Debug|Win32
+		{4C7EF76C-CF80-4436-9247-BD8D16CB60C8}.Release|x64.ActiveCfg = Release|x64
+		{4C7EF76C-CF80-4436-9247-BD8D16CB60C8}.Release|x64.Build.0 = Release|x64
+		{4C7EF76C-CF80-4436-9247-BD8D16CB60C8}.Release|x86.ActiveCfg = Release|Win32
+		{4C7EF76C-CF80-4436-9247-BD8D16CB60C8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AA69E05-897E-4261-BDE0-B8C1DCE7FD35}
 	EndGlobalSection
 EndGlobal
