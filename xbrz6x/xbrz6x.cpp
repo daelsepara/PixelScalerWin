@@ -1,7 +1,5 @@
 // xbrz6x.cpp : Defines the exported functions for the DLL application.
 //
-// xbrz5x.cpp : Defines the exported functions for the DLL application.
-//
 
 #include "stdafx.h"
 
