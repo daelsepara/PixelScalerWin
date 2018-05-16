@@ -147,6 +147,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gameboygreen", "gameboygree
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lcdgreen", "lcdgreen\lcdgreen.vcxproj", "{2C659200-5708-4B6B-A44A-11D54FE11EAA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "heat70", "heat70\heat70.vcxproj", "{44B90F7A-6066-4C4F-B0B7-90976DA05FE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -731,6 +733,14 @@ Global
 		{2C659200-5708-4B6B-A44A-11D54FE11EAA}.Release|x64.Build.0 = Release|x64
 		{2C659200-5708-4B6B-A44A-11D54FE11EAA}.Release|x86.ActiveCfg = Release|Win32
 		{2C659200-5708-4B6B-A44A-11D54FE11EAA}.Release|x86.Build.0 = Release|Win32
+		{44B90F7A-6066-4C4F-B0B7-90976DA05FE9}.Debug|x64.ActiveCfg = Debug|x64
+		{44B90F7A-6066-4C4F-B0B7-90976DA05FE9}.Debug|x64.Build.0 = Debug|x64
+		{44B90F7A-6066-4C4F-B0B7-90976DA05FE9}.Debug|x86.ActiveCfg = Debug|Win32
+		{44B90F7A-6066-4C4F-B0B7-90976DA05FE9}.Debug|x86.Build.0 = Debug|Win32
+		{44B90F7A-6066-4C4F-B0B7-90976DA05FE9}.Release|x64.ActiveCfg = Release|x64
+		{44B90F7A-6066-4C4F-B0B7-90976DA05FE9}.Release|x64.Build.0 = Release|x64
+		{44B90F7A-6066-4C4F-B0B7-90976DA05FE9}.Release|x86.ActiveCfg = Release|Win32
+		{44B90F7A-6066-4C4F-B0B7-90976DA05FE9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
