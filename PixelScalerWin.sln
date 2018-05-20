@@ -171,6 +171,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cgahi3", "cgahi3\cgahi3.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "supergameboy", "supergameboy\supergameboy.vcxproj", "{CD8A8CF4-5DEA-472F-88DD-49728BD6165C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gbc01", "gbc01\gbc01.vcxproj", "{CD321745-8DA8-4C67-A341-21431367E607}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -851,6 +853,14 @@ Global
 		{CD8A8CF4-5DEA-472F-88DD-49728BD6165C}.Release|x64.Build.0 = Release|x64
 		{CD8A8CF4-5DEA-472F-88DD-49728BD6165C}.Release|x86.ActiveCfg = Release|Win32
 		{CD8A8CF4-5DEA-472F-88DD-49728BD6165C}.Release|x86.Build.0 = Release|Win32
+		{CD321745-8DA8-4C67-A341-21431367E607}.Debug|x64.ActiveCfg = Debug|x64
+		{CD321745-8DA8-4C67-A341-21431367E607}.Debug|x64.Build.0 = Debug|x64
+		{CD321745-8DA8-4C67-A341-21431367E607}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD321745-8DA8-4C67-A341-21431367E607}.Debug|x86.Build.0 = Debug|Win32
+		{CD321745-8DA8-4C67-A341-21431367E607}.Release|x64.ActiveCfg = Release|x64
+		{CD321745-8DA8-4C67-A341-21431367E607}.Release|x64.Build.0 = Release|x64
+		{CD321745-8DA8-4C67-A341-21431367E607}.Release|x86.ActiveCfg = Release|Win32
+		{CD321745-8DA8-4C67-A341-21431367E607}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
