@@ -17,19 +17,22 @@ int CLR(unsigned char* Input, int srcx, int srcy, int x, int y)
 {
 	auto Channels = 3;
 
-	auto index = (y * srcx + x) * Channels;
+	if (y >= 0 && y < srcy && x >= 0 && x < srcx)
+	{
+		auto index = (y * srcx + x) * Channels;
 
-	auto r = Input[index];
-	auto g = Input[index + 1];
-	auto b = Input[index + 2];
+		auto r = Input[index];
+		auto g = Input[index + 1];
+		auto b = Input[index + 2];
 
-	return (r << 16) + (g << 8) + b;
+		return (r << 16) + (g << 8) + b;
+	}
+
+	return 0;
 }
 
 int CLR(unsigned char* Input, int srcx, int srcy, int x, int y, int dx, int dy)
 {
-	auto Channels = 3;
-
 	auto xx = x + dx;
 	auto yy = y + dy;
 
