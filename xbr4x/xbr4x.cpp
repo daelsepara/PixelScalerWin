@@ -85,9 +85,9 @@ extern "C"
 					P[1] = P[2] = P[3] = P[4] = P[5] = P[6] = P[7] = P[8] = pe;
 					P[9] = P[10] = P[11] = P[12] = P[13] = P[14] = P[15] = P[16] = pe;
 
-					_Kernel4Xv2(pe, pi, ph, pf, pg, pc, pd, pb, f4, i4, h5, i5, &P[16], &P[15], &P[12], &P[3], &P[8], &P[11], &P[14], &P[13], AllowAlphaBlending);
-					_Kernel4Xv2(pe, pc, pf, pb, pi, pa, ph, pd, b1, c1, f4, c4, &P[3], &P[8], &P[3], &P[1], &P[2], &P[7], &P[12], &P[16], AllowAlphaBlending);
-					_Kernel4Xv2(pe, pa, pb, pd, pc, pg, pf, ph, d0, a0, b1, a1, &P[1], &P[2], &P[5], &P[13], &P[9], &P[6], &P[3], &P[3], AllowAlphaBlending);
+					_Kernel4Xv2(pe, pi, ph, pf, pg, pc, pd, pb, f4, i4, h5, i5, &P[16], &P[15], &P[12], &P[4], &P[8], &P[11], &P[14], &P[13], AllowAlphaBlending);
+					_Kernel4Xv2(pe, pc, pf, pb, pi, pa, ph, pd, b1, c1, f4, c4, &P[4], &P[8], &P[3], &P[1], &P[2], &P[7], &P[12], &P[16], AllowAlphaBlending);
+					_Kernel4Xv2(pe, pa, pb, pd, pc, pg, pf, ph, d0, a0, b1, a1, &P[1], &P[2], &P[5], &P[13], &P[9], &P[6], &P[3], &P[4], AllowAlphaBlending);
 					_Kernel4Xv2(pe, pg, pd, ph, pa, pi, pb, pf, h5, g5, d0, g0, &P[13], &P[9], &P[14], &P[16], &P[15], &P[10], &P[5], &P[1], AllowAlphaBlending);
 					
 					for (auto Pixel = 1; Pixel < 17; Pixel++)
